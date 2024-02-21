@@ -1,0 +1,32 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+   "description": "Shorten long links with hatl.ink, a no-bs URL shortening service.",
+   "icons": {
+      "128": "assets/128.png",
+      "16": "assets/16.png",
+      "32": "assets/48.png",
+      "48": "assets/48.png"
+   },
+   "manifest_version": 3,
+   "name": "hatl.ink URL Shortener",
+   "action": {
+      "default_icon": {
+         "128": "assets/128.png",
+         "16": "assets/16.png",
+         "24": "assets/24.png",
+         "32": "assets/32.png"
+      },
+      "default_title": "hatl.ink",
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "storage",
+      "tabs",
+      "activeTab"
+    ],
+    "options_ui": {
+      "page": "options.html",
+      "open_in_tab": false
+    },
+   "version": "1.0"
+}
