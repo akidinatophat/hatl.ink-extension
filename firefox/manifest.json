@@ -1,0 +1,36 @@
+{
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "brew@brew.rocks"
+    }
+  },
+  "browser_action": {
+    "default_icon": {
+      "128": "assets/128.png",
+      "16": "assets/16.png",
+      "24": "assets/24.png",
+      "32": "assets/32.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "hatl.ink"
+  },
+  "description": "Shorten long links with hatl.ink, a no-bs URL shortening service.",
+  "icons": {
+    "128": "assets/128.png",
+    "16": "assets/16.png",
+    "32": "assets/48.png",
+    "48": "assets/48.png"
+  },
+  "manifest_version": 2,
+  "name": "hatl.ink URL Shortener",
+  "options_ui": {
+    "open_in_tab": true,
+    "page": "options.html"
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab"
+  ],
+  "version": "1.0"
+}

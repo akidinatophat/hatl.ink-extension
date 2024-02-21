@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <style>
+        body {width: 500px;
+              background-color: #1b1b1b;
+            color: white;
+            font-family: "Lucida Console", Courier, monospace;
+          font-size: medium;
+        text-align: center;}
+
+        a {
+          color: white;
+        }
+
+        input, button {
+          background-color: #0f0f0f;
+          color: white;
+          width: 25%;
+        }
+      
+        .link {
+          margin: auto;
+          text-align: center;
+          padding: 10px;
+          background-color: #0f0f0f;
+          width: 75%;
+        }
+      </style>
+    </head>
+    <body>
+      <h2>hatl.ink</h2>
+      <hr width="165"><br>
+      <span id="statustxt">...</span><br><br>
+      <input type="text" id="alias" required minlength="3" size="10" />
+      <br><br><button type="button" id="noshowagain">Don't ask again.</button>
+      <div class="link">
+        <span id="linktxt">https://brew.rocks</span>
+      </div><br>
+      <a id="copybtn" href="javascript:void(0)">Copy</a>
+      <br><hr>
+      <a href="https://hatl.ink" target="_blank">Go to hatl.ink</a><span>    </span>
+      <a id="optionsbtn" href="javascript:void(0)">Options</a>
+      <br><br>
+    </body>
+    <script src="assets/jquery.js"></script> 
+    <script src="popup.js"></script> 
+  </html>
